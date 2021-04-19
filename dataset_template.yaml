@@ -1,0 +1,8 @@
+名称: Total-Text dataset
+下载链接: https://github.com/cs-chan/Total-Text-Dataset
+提供者: Chee Kheng Ch’ng
+提出时间: 2015
+对应论文: 'Total-text: A comprehensive dataset for scene text detection and recognition.'
+任务: 文本检测与识别
+格式: JSON/CSV/
+简介: 一个用于弯曲文本检测的数据集。与CTW1500不同的是，本数据集的标注采用文字级标注。该数据集包括水平的、多方向的和弯曲的文本。它包含1255张用于训练的图像和300张用于测试的图像。
