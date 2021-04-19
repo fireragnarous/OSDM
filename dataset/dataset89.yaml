@@ -1,0 +1,10 @@
+名称: SentiCap
+下载链接: http://users.cecs.anu.edu.au/~u4534172/senticap.html
+提供者:
+- Alexander Mathews
+- Lexing Xie
+- Xuming He
+提出时间: 2015
+对应论文。: 'SentiCap: Generating Image Descriptions with Sentiments'
+任务: Image Captioning
+简介: SentiCap数据集包含几千张带有正面和负面情绪的图片。这些情感性的说明是作者通过重写事实描述而构建的。总共有2000多个情感性的说明文字。

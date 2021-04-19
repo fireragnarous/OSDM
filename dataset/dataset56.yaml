@@ -1,0 +1,14 @@
+名称: OntoNotes 4.0
+下载链接: https://catalog.ldc.upenn.edu/LDC2011T03
+提供者:
+- Sameer Pradhan
+- Lance Ramshaw
+- Mitchell Marcus
+- Martha Palmer
+- Ralph Weischedel
+- Nianwen Xue
+提出时间: 2011
+对应论文: CoNLL-2011 Shared Task:Modeling Unrestricted Coreference in OntoNotes
+任务: Named Entity Recognition
+简介: OntoNotes 4.0版，是作为OntoNotes项目的一部分开发的，OntoNotes项目是BBN Technologies、科罗拉多大学、宾夕法尼亚大学和南加州大学信息科学研究所的合作成果。该项目的目标是对一个大型语料库进行注释，该语料库由三种语言（英语、汉语、阿拉伯语）的各种文本类型（新闻、电话会话、博客、新闻组、广播、脱口秀）组成，结构信息（语法和谓词论元结构）和浅层语义。OntoNotes
+  4.0版由美国国防高级研究项目局支持。

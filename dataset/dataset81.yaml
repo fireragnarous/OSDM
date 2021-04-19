@@ -1,0 +1,14 @@
+名称: CLEVR
+下载链接: https://cs.stanford.edu/people/jcjohns/clevr/
+提供者:
+- Justin Johnson
+- Bharath Hariharan
+- Laurens van der Maaten
+- Li Fei-Fei
+- C. Lawrence Zitnick
+- Ross Girshick
+提出时间: 2016
+对应论文。: 'CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual
+  Reasoning'
+任务: Question Answering
+简介: 一个综合的可视化问答数据集。它包含三维渲染的图像，每幅图像都带有许多高度组合的问题，这些问题分为不同的类别，分别是：存在、计数、比较整数、查询属性和比较属性。CLEVR数据集包括：一个包含70k图像和700k问题的训练集，一个包含15k图像和150k问题的验证集和一个包含15k图像和150k问题的测试集。

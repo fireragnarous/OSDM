@@ -1,0 +1,32 @@
+简称: ALONE
+任务: 文本摘要
+论文:
+  题目: All Word Embeddings from One Embedding
+  作者:
+  - Sho Takase
+  - Sosuke Kobayashi
+  单位:
+  - Tokyo Institute of Technology
+  - Tohoku University
+  发表年份: 2020
+  卷（号）: NeurIPS-2020
+  出版社: Curran Associates, Inc.
+  页码: None
+  下载地址: https://arxiv.org/abs/2004.12073
+  引用次数: 1
+代码:
+  地址: https://github.com/takase/alone_seq2seq
+  时间: 2020
+  star数量: 17
+  fork数量: 1
+  编程语言: Python>=3.6
+  框架: Pytorch>=1.4.0
+模型性能:
+  数据集:
+    DUC 2004 Task 1:
+      ROUGE-1: 32.57
+      ROUGE-2: 11.63
+      ROUGE-L: 28.24
+关键技术: shared base word embedding
+简介: 作者提出了一种新的方法：ALONE(all word embeddings from one)，作为一个词嵌入集，它不需要多个训练步骤和额外的可训练参数来将每个词赋给一个唯一的向量。
+简介链接: None

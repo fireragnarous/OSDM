@@ -1,0 +1,14 @@
+名称: Hateful Memes
+下载链接: https://ai.facebook.com/blog/hateful-memes-challenge-and-data-set/
+提供者:
+- Douwe Kiela
+- Hamed Firooz
+- Aravind Mohan
+- Vedanuj Goswami
+- Amanpreet Singh
+- Pratik Ringshia
+- Davide Testuggine
+提出时间: 2020
+对应论文。: The Hateful Memes Challenge:Detecting Hate Speech in Multimodal Memes
+任务: Image Captioning
+简介: 数据集由10000多个新创建的多模态内容示例组成。表情包的选择方式使得严格意义上的单峰分类器难以正确分类。作者还专门设计了数据集，要求模型能够克服人工智能研究中的常见挑战，例如缺少示例导致的误报等。

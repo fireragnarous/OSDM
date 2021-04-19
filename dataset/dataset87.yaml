@@ -1,0 +1,11 @@
+名称: RSICD
+下载链接: https://github.com/201528014227051/RSICD_optimal
+提供者:
+- Xiaoqiang Lu
+- Binqiang Wang
+- Xiangtao Zheng
+- Xuelong Li
+提出时间: 2018
+对应论文。: Exploring Models and Data for Remote Sensing Image Caption Generation
+任务: Image Captioning
+简介: 遥感图像字幕数据集（RSICD）是用于遥感图像字幕任务的数据集。它包含了来自googleearth、百度地图、MapABC和天地图的上万幅遥感图像。图像固定为224X224像素，分辨率不同。遥感图像总数为10921幅，每幅图像有5句描述。

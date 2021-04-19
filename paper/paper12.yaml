@@ -1,0 +1,66 @@
+简称: Transformer-XH
+任务: 自然语言推理
+论文:
+  题目: 'Transformer-XH: Multi-Evidence Reasoning with eXtra Hop Attention'
+  作者:
+  - Chen Zhao
+  - Chenyan Xiong
+  - Corby Rosset
+  - Xia Song
+  - Paul Bennett
+  - Saurabh Tiwary
+  单位:
+  - University of Maryland, College Park
+  - Microsoft AI & Research
+  发表年份: 2019
+  卷（号）: ICLR-2020
+  出版社: International Conference on Learning Representations
+  页码: Paper1320
+  下载地址: https://openreview.net/forum?id=r1eIiCNYwS
+  引用次数: 21
+代码:
+  地址: https://github.com/microsoft/Transformer-XH
+  时间: 2020
+  star数量: 52
+  fork数量: 12
+  编程语言: Python
+  框架: NVIDIA apex
+模型性能:
+  数据集:
+    HotpotQA:
+      Dev:
+        Ans:
+          EM: 54.0
+          F1: 66.2
+        Supp:
+          EM: 41.7
+          F1: 72.1
+        Joint:
+          EM: 27.7
+          F1: 52.9
+      Test:
+        Ans:
+          EM: 51.6
+          F1: 64.1
+        Supp:
+          EM: 40.9
+          F1: 71.4
+        Joint:
+          EM: 26.1
+          F1: 51.3
+    FEVER:
+      Dev:
+        LA: 78.05
+        FEVER: 74.98
+      Test:
+        LA: 72.39
+        FEVER: 69.07
+      Single Evidence:
+        LA: 81.84
+        FEVER: 81.31
+      Multi Evidence:
+        LA: 86.58
+        FEVER: 58.47
+关键技术: eXtra Hop attention
+简介: 文章以完全数据驱动的方式实现结构化文本的内在建模,对文本跳跃的注意，除了关注每个序列中的单字之外，还自然地在连接的文本序列中“跳跃”。通过文档之间内在联系的信息和构建全局上下文表示，从而更好地进行联合多证据推理。
+简介链接: https://blog.csdn.net/u011984148/article/details/106394228

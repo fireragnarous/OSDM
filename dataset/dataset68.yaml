@@ -1,0 +1,11 @@
+名称: WNUT2017
+下载链接: https://noisy-text.github.io/2017/emerging-rare-entities.html
+提供者:
+- Leon Derczynski
+- Eric Nichols
+- Marieke van Erp
+- Nut Limsopatham
+提出时间: 2017
+对应论文: Results of the WNUT2017 Shared Task on Novel and Emerging Entity Recognition
+任务: Named Entity Recognition
+简介: 数据集注释并提供了来自三个不同的来源（Reddit、Twitter、YouTube和StackExchange）的2295篇文章，主要关注新兴实体（即n年前的数据中不存在）和罕见实体（即在我们的数据中不超过k次）。

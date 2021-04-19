@@ -1,0 +1,11 @@
+名称: Open Entity
+下载链接: https://www.cs.utexas.edu/~eunsol/html_pages/open_entity.html
+提供者:
+- Eunsol Choi
+- Omer Levy
+- Yejin Choi
+- Luke Zettlemoyer
+提出时间: 2018
+对应论文: 'Ultra-Fine Entity Typing '
+任务: Information Extraction
+简介: 数据集是一个包含约6000个句子的集合，其中包含细粒度的实体类型注释。实体类型是描述目标实体在句子中所扮演角色的自由形式名词短语。句子是从Gigaword、OntoNotes和web文章中抽取的。平均每个句子有5个标签。

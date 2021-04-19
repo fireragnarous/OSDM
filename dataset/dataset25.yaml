@@ -1,0 +1,8 @@
+名称: image-captioning-bottom-up-top-down
+下载链接: https://github.com/poojahira/image-captioning-bottom-up-top-down
+提供者:
+- Pooja Hiranandani
+提出时间: 2019
+对应论文: 'Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering.'
+任务: 视觉场景理解
+简介: 一个进行视觉场景理解挑战的数据集。利用在视觉基因组数据集上训练的快速R-CNN目标检测模型，提取MSCOCO数据集的自底向上特征。

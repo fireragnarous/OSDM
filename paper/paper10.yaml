@@ -1,0 +1,57 @@
+简称: BART
+任务: 文本摘要
+论文:
+  题目: 'BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation,
+    Translation, and Comprehension'
+  作者:
+  - Mike Lewis
+  - Yinhan Liu
+  - Naman Goyal
+  - Marjan Ghazvininejad
+  - Abdelrahman Mohamed
+  - Omer Levy
+  - Ves Stoyanov
+  - Luke Zettlemoyer
+  单位:
+  - Facebook AI
+  发表年份: 2019
+  卷（号）: arXiv:1910.13461
+  出版社: 'arXiv preprint '
+  页码: None
+  下载地址: https://arxiv.org/abs/1910.13461
+  引用次数: 392
+代码:
+  地址: https://github.com/pytorch/fairseq/tree/master/examples/bart
+  时间: 2020
+  star数量: 10.9k
+  fork数量: 2.8k
+  编程语言: Python
+  框架: Pytorch
+模型性能:
+  数据集:
+    X-Sum:
+      ROUGE-1: 45.14
+      ROUGE-2: 22.27
+      ROUGE-L: 37.25
+    CNN / Daily Mail:
+      ROUGE-1: 44.16
+      ROUGE-2: 21.28
+      ROUGE-L: 40.9
+    GLUE:
+      CoLA: 62.8
+      SST-2: 96.6
+      MRPC: 90.4
+      STS-B: 91.2
+      QQP: 92.5
+      MNLI-m/mm: 89.9/90.1
+      QNLI: 94.9
+      RTE: 87.0
+    SQuAD v2.0:
+      EM: 86.1
+      F1: 89.2
+    SQuAD v1.1:
+      EM: 88.8
+      F1: 94.6
+关键技术: combining Bidirectional and Auto-Regressive Transformers
+简介: 我们提出了BART，它是一个预先训练的结合了双向和自回归transformer的模型。BART采用序列到序列模型构建去噪自编码器，适用于非常广泛的下游任务。
+简介链接: https://blog.csdn.net/qq_28385535/article/details/109186704

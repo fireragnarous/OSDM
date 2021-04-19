@@ -1,0 +1,12 @@
+名称: QASC
+下载链接: https://github.com/allenai/qasc
+提供者:
+- Tushar Khot
+- Peter Clark
+- Michal Guerquin
+- Peter Jansen
+- Ashish Sabharwal
+提出时间: 2020
+对应论文: 'QASC: A Dataset for Question Answering via Sentence Composition'
+任务: 自然语言推理
+简介: 数据集是一个注重句子组成的问答数据集。它包括9980个关于小学科学的8项选择题（8134个训练集，920个测试题），另包含1700万个句子的语料库。

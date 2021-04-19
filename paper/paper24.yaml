@@ -1,0 +1,46 @@
+简称: Bottom-up and Top-down Attention
+任务: 'Image Captioning'
+论文: 
+  题目: Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering
+  作者:
+    - Peter Anderson
+    - Xiaodong He
+    - Chris Buehler
+    - Damien Teney
+    - Mark Johnson
+    - Stephen Gould
+    - Lei Zhang
+  单位:
+    - Australian National University
+    - Microsoft Research
+    - University of Adelaide
+    - Macquarie University
+  发表年份: 2018
+  卷（号）: None
+  出版社: Proceedings of the IEEE conference on computer vision and pattern recognition
+  页码: 6077--6086
+  下载地址: https://openaccess.thecvf.com/content_cvpr_2018/html/Anderson_Bottom-Up_and_Top-Down_CVPR_2018_paper.html
+  引用次数: 1564
+代码:
+  地址: 'https://github.com/poojahira/image-captioning-bottom-up-top-down'
+  时间: 2019
+  star数量: 115
+  fork数量: 28
+  编程语言: Python 3.6
+  框架: Pytorch 0.4.1
+模型性能: 
+  数据集:
+    - Microsoft COCO:
+      - BLEU-4: 36.2
+      - METEOR: 27.0
+      - ROUGE-L: 56.4
+      - CIDEr: 113.5
+关键技术: 'Faster R-CNN'
+简介: '文章提出一种自上而下与自下而上相结合的注意力模型方法，应用于视觉场景理解和视觉问答系统的相关问题。其中基于自下而上的关注模型（一般使用Faster R-CNN）用于提取图像中的兴趣区域，获取对象特征；而基于自上而下的注意力模型用于学习特征所对应的权重（一般使用LSTM），以此实现对视觉图像的深入理解。'
+简介链接: 'https://blog.csdn.net/u012991166/article/details/80659909'
+
+  
+
+
+
+

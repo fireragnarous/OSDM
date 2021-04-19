@@ -1,0 +1,9 @@
+名称: MSRA
+下载链接: https://www.microsoft.com/en-us/download/details.aspx?id=52531
+提供者:
+- Gina-Anne Levow
+提出时间: 2006
+对应论文: The Third International Chinese Language Processing Bakeoff:Word Segmentation
+  and Named Entity Recognition
+任务: Named Entity Recognition
+简介: 数据集包括一套人工标注的中文分词数据，用于训练和测试中文分词系统，以供研究之用。

@@ -1,0 +1,43 @@
+简称: Meshed-Memory Transformer
+任务: 'Image Captioning'
+论文: 
+  题目: Meshed-Memory Transformer for Image Captioning
+  作者:
+    - Marcella Cornia
+    - Matteo Stefanini
+    - Lorenzo Baraldi
+    - Rita Cucchiara
+  单位:
+    - University of Modena and Reggio Emilia
+  发表年份: 2020
+  卷（号）: None
+  出版社: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  页码: 10578--10587
+  下载地址: https://openaccess.thecvf.com/content_CVPR_2020/html/Cornia_Meshed-Memory_Transformer_for_Image_Captioning_CVPR_2020_paper.html
+  引用次数: 39
+代码:
+  地址: 'https://github.com/aimagelab/meshed-memory-transformer'
+  时间: 2020
+  star数量: 194
+  fork数量: 42
+  编程语言: Python 3.6
+  框架: Pytorch
+模型性能: 
+  数据集:
+    - Microsoft COCO:
+      - BLEU-1: 96.0
+      - BLEU-2: 90.8
+      - BLEU-3: 82.7
+      - BLEU-4: 72.8
+      - METEOR: 39.0
+      - ROUGE: 74.8
+      - CIDEr: 132.1
+关键技术: 'Meshed Memory Transformer'
+简介: '作者提出了一个新型fully-attention图像字幕算法，对于image caption我们提出了一个带有内存的 网格transformer。这个结构优化了图像编码器和语言生成步骤，它学习集成先验知识的图像区域之 间关系的多级表示，并在解码阶段使用网格状连接来利用低和高级特征。'
+简介链接: 'https://blog.csdn.net/weixin_44869866/article/details/107275296'
+
+  
+
+
+
+

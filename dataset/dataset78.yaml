@@ -1,0 +1,13 @@
+名称: SearchQA
+下载链接: https://github.com/nyu-dl/dl4ir-searchQA
+提供者:
+- Matt Dunn
+- Levent Sagun
+- Mike Higgins
+- V. Ugur Guney
+- Volkan Cirik
+- Kyunghyun Cho
+提出时间: 2017
+对应论文: 'SearchQA: A New Q&A DatasetAugmented with Context from a Search Engine'
+任务: Question Answering
+简介: 数据集由超过140k个问答对组成，每对平均有49.6个片段。与其他问答数据集相比，SearchQA不是从文章开始生成问答对，而是以现有的问答对生成新的问答对，

@@ -1,0 +1,12 @@
+名称: CLUTRR
+下载链接: https://github.com/facebookresearch/clutrr
+提供者:
+- Koustuv Sinha
+- Shagun Sodhani
+- Jin Dong
+- Joelle Pineau
+- andWilliam L. Hamilton
+提出时间: 2019
+对应论文: 'CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text'
+任务: 自然语言推理
+简介: 数据集包含大量涉及假设家庭的半合成故事，测试模型的归纳总结能力。模型需要根据给出的故事，推断两个家庭成员之间的关系，他们的关系没有明确提及。

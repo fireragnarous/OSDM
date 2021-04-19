@@ -1,0 +1,8 @@
+名称: VC-R-CNN
+下载链接: https://github.com/Wangt-CN/VC-R-CNN
+提供者:
+- Wang Tan
+提出时间: 2020
+对应论文: 'Visual Commonsense R-CNN'
+任务: 视觉推理
+简介: 本数据库旨在建立一个视觉常识表示学习架构，以现有的目标侦测码库为基础，结合非监督/自监督学习。

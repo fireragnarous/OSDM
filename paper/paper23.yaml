@@ -1,0 +1,29 @@
+简称: VirTex
+任务: Image Captioning
+论文:
+  题目: 'VirTex: Learning Visual Representations from Textual Annotations'
+  作者:
+  - Karan Desai
+  - Justin Johnson
+  单位:
+  - University of Michigan
+  发表年份: 2021
+  卷（号）: CVPR-2021
+  出版社: International conference on computer vision and pattern recognition
+  页码: None
+  下载地址: https://arxiv.org/abs/2006.06666
+  引用次数: 10
+代码:
+  地址: https://github.com/kdexd/virtex
+  时间: 2021
+  star数量: 330
+  fork数量: 31
+模型性能:
+  数据集:
+    VOC07:
+      Downstream performance: 88.7
+    TriviaQA:
+      Downstream performance: 53.8
+关键技术: Pretraining approach using semantically dense captions
+简介: 与无监督训练以求扩展到大量未标记图像不同，作者目标实现从少量图像学习到高质量的视觉表达。因此作者回顾有监督预训练分类模型，提出virtex：一种用密集语义描述来学习视觉表示的预训练方法。
+简介链接: https://blog.csdn.net/weixin_42683218/article/details/115173167

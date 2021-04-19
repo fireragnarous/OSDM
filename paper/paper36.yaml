@@ -1,0 +1,45 @@
+简称: Downstream Model Design
+任务: 'Relation Extraction'
+论文: 
+  题目: Downstream Model Design of Pre-trained Language Model for Relation Extraction Task
+  作者:
+    - Cheng Li
+    - Ye Tian
+  单位:
+    - AI Application Research Center, Huawei Technologies, Shenzhen, China
+  发表年份: 2020
+  卷（号）: None
+  出版社: arXiv
+  页码: arXiv--2004
+  下载地址: https://arxiv.org/abs/2004.03786
+  引用次数: 4
+代码:
+  地址: 'https://github.com/slczgwh/REDN'
+  时间: 2020
+  star数量: 74
+  fork数量: 14
+  编程语言: Python
+  框架: Pytorch
+模型性能: 
+  数据集:
+    - SemEval:
+      - Precision: 94.2
+      - Recall: 88.0
+      - Micro-F1: 91.0
+    - NYT:
+      - Precision: 94.2
+      - Recall: 85.7
+      - Micro-F1: 89.8
+    - WebNLG:
+      - Precision: 97.0
+      - Recall: 95.7
+      - Micro-F1: 96.3
+关键技术: 'bert-base-uncased模型'
+简介: 'REDN是一个使用bert预训练模型进行关系抽取的衍生模型，该模型设计了一种具有新型损失函数的网络结构，并且仅用bert-base-uncased模型便在三个主流关系抽取数据集SemEval 2010 Task 8 , NYT , WebNLG 上达到了sota的效果。该模型的最大创新之处在于用矩阵而非一维向量表示实体之间的关系，并设计了相应的损失函数。文章认为关系是由首尾实体向量之间的相关性决定的，那么关系自然应该表示为一个矩阵而不是一维向量。这样在预测它们之间的关系时，就可以使用更多信息，如实体在文中的位置等。'
+简介链接: 'https://blog.csdn.net/xiaowopiaoling/article/details/105700561'
+
+  
+
+
+
+

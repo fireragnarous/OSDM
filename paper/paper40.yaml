@@ -1,0 +1,99 @@
+简称: Exploring the Limits of Transfer Learning
+任务: 'Natural Language Inference'
+论文: 
+  题目: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+  作者:
+    - Colin Raffel
+    - Noam Shazeer
+    - Adam Roberts
+    - Katherine Lee
+    - Sharan Narang
+    - Michael Matena
+    - Yanqi Zhou
+    - Wei Li
+    - Peter J. Liu
+  单位:
+    - Google, Mountain View, CA 94043, USA
+  发表年份: 2019
+  卷（号）: None
+  出版社: arXiv
+  页码: arXiv--1910
+  下载地址: https://arxiv.org/abs/1910.10683
+  引用次数: 575
+代码:
+  地址: 'https://github.com/google-research/text-to-text-transfer-transformer'
+  时间: 2019
+  star数量: 3113
+  fork数量: 421
+  编程语言: Python
+  框架: TensorFlow
+模型性能: 
+  数据集:
+    - GLUE:
+      - Average: 90.3
+    - CoLA:
+      - Matthew’s: 71.6
+    - SST-2:
+      - Accuracy: 97.5
+    - MRPC:
+      - F1: 92.8
+      - Accuracy: 90.4
+    - STS-B:
+      - Pearson: 93.1
+      - Spearman: 92.8
+    - QQP:
+      - F1: 75.1
+      - Accuracy: 90.6
+    - MNLI-m:
+      - Accuracy: 92.2
+    - MNLI-mm:
+      - Accuracy: 91.9
+    - QNLI:
+      - Accuracy: 96.9
+    - RTE:
+      - Accuracy: 92.8
+    - WNLI:
+      - Accuracy: 94.5
+    - SQuAD:
+      - EM: 91.26
+      - F1: 96.22
+    - SuperGLUE:
+      - Average: 88.9
+    - BoolQ:
+      - Average: 91.2
+    - CB:
+      - F1: 93.9
+      - Accuracy: 96.8
+    - COPA:
+      - Accuracy: 94.8
+    - MultiRC:
+      - F1a: 88.1
+      - EM: 63.3
+    - ReCoRD:
+      - F1: 94.1
+      - Accuracy: 93.4
+    - RTE:
+      - Accuracy: 92.5
+    - WiC:
+      - Accuracy: 76.9
+    - WSC:
+      - Accuracy: 93.8
+    - WMT EnDe:
+      - BLEU: 32.1
+    - WMT EnFr:
+      - BLEU: 43.4
+    - WMT EnRo:
+      - BLEU: 28.1
+    - CNN/DM:
+      - ROUGE-1: 43.52
+      - ROUGE-2: 21.55
+      - ROUGE-L: 40.69
+关键技术: 'Text-to-Text Transfer Transformer'
+简介: '本文系统研究比较了 预训练目标、系统架构、未标记数据集和迁移方法等其他因素对数十个自然语言理解任务的影响。本文其实并没有引入新的模型或者新的方法，而是将现有的方法和技术做一次集大成，进行统一。此外，本文还引入一个新的数据集：Colossal Clean Crawled Corpus，名为C4。该数据集引入的初衷是为了探索尺度规模(包括模型规模和数据规模)在NLP中的影响。'
+简介链接: 'https://blog.csdn.net/ljp1919/article/details/102956381'
+
+  
+
+
+
+

@@ -1,0 +1,11 @@
+名称: CommonsenseQA
+下载链接: https://www.tau-nlp.org/commonsenseqa
+提供者:
+- Alon Talmor
+- Jonathan Herzig
+- Nicholas Lourie
+- Jonathan Berant
+提出时间: 2019
+对应论文。: 'CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge'
+任务: Question Answering
+简介: 数据集由12247个问题组成，每个问题有5个选项。数据集由以下过程中生成：选择ConceptNet中的一个源概念和在ConceptNet中与其相连的另三个相关概念；以每一个关联概念作为答案提出特定问题，把另两个概念作为干扰项；对每一个问题再额外从ConceptNet选出两个概念作为干扰项。

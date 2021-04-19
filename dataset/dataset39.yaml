@@ -1,0 +1,8 @@
+名称: SpanBERT
+下载链接: https://github.com/facebookresearch/SpanBERT
+提供者:
+- Facebook Research
+提出时间: 2019
+对应论文: 'SpanBERT: Improving Pre-training by Representing and Predicting Spans'
+任务: 改进BERT模型
+简介: 该模型提出了更好的 Span Mask 方案，SpanBERT 不再对随机的单个 token 添加掩膜，而是对随机对邻接分词添加掩膜；通过加入 Span Boundary Objective (SBO) 训练目标，通过使用分词边界的表示来预测被添加掩膜的分词的内容，不再依赖分词内单个 token 的表示，增强了 BERT 的性能，特别在一些与 Span 相关的任务，如抽取式问答；实验获得了和 XLNet 类似的结果，发现不加入 Next Sentence Prediction (NSP) 任务，直接用连续一长句训练效果更好。

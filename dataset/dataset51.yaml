@@ -1,0 +1,9 @@
+名称: GENIA
+下载链接: http://www.geniaproject.org/genia-corpus
+提供者:
+- Arzoo Katiyar
+- Claire Cardie
+提出时间: 2018
+对应论文: Nested Named Entity Recognition Revisited
+任务: Named Entity Recognition
+简介: GENIA语料库是GENIA项目中编译和注释的生物医学文献的集合语料库。使用PubMed查询三个术语“人类”、“血细胞”和“转录因子”，选择包含该术语的所有1999年的Medline摘要。语料库标注了不同层次的语言和语义信息。

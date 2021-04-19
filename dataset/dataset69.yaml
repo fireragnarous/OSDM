@@ -1,0 +1,28 @@
+名称: WMT2016
+下载链接: http://www.statmt.org/wmt16/index.html
+提供者:
+- Ondrej Bojar
+- Rajen Chatterjee
+- Christian Federmann
+- Yvette Graham
+- Barry Haddow
+- Matthias Huck
+- Antonio Jimeno Yepes
+- Philipp Koehn
+- Varvara Logacheva
+- Christof Monz
+- Matteo Negri
+- Aurelie Neveol
+- Mariana Neves
+- Martin Popel
+- Matt Post
+- Raphael Rubino
+- Carolina Scarton
+- Lucia Specia
+- Marco Turchi
+- Karin Verspoor
+- Marcos Zampieri
+提出时间: 2016
+对应论文: Findings of the 2016 Conference on Machine Translation (WMT16)
+任务: Statistical machine translation
+简介: WMT2016是第一届机器翻译会议开放任务中使用的数据集集合。主要有十项开放任务：新闻翻译任务，IT域翻译任务，生物医学翻译任务，自动后期编辑任务，度量任务（评估给定参考译文的机器翻译质量），质量评估任务（评估机器翻译质量，无需任何参考资料），调整任务（优化给定的机器翻译系统），代词翻译任务，双语文档对齐任务，多模态翻译任务。

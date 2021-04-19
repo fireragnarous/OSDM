@@ -1,0 +1,13 @@
+名称: ReCoRD
+下载链接: https://sheng-z.github.io/ReCoRD-explorer/
+提供者:
+- Sheng Zhang
+- Xiaodong Liu
+- Jingjing Liu
+- Jianfeng Gao
+- Kevin Duh
+- Benjamin Van Durme
+提出时间: 2018
+对应论文: 'ReCoRD: Bridging the Gap between Human and Machine Commonsense Reading Comprehension'
+任务: Common Sense Reasoning
+简介: ReCoRD一个需要常识推理的大规模阅读理解数据集，记录了由CNN/每日邮报新闻文章自动生成的问题；每个问题的答案都在新闻摘要段落中，有一定文本跨度。数据集目的是评价机器在阅读理解中的常识推理能力。

@@ -1,0 +1,10 @@
+名称: Gigaword
+下载链接: https://drive.google.com/file/d/0B6N7tANPyVeBNmlSX19Ld2xDU1E/view
+提供者:
+- Rush Alexander M.
+- Chopra Sumit
+- Weston Jason
+提出时间: 2015
+对应论文: A Neural Attention Model for Abstractive Sentence Summarization
+任务: 文本摘要
+简介: 数据集包含的输入文档（平均31.4个单词）和摘要（平均8.3个单词）非常短，用于文本摘要任务。它包含3.8M训练集、189k开发示例和1951个测试实例。

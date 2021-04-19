@@ -1,0 +1,11 @@
+名称: Visual Commonsense Reasoning
+下载链接: https://visualcommonsense.com/
+提供者:
+- Rowan Zellers
+- Yonatan Bisk
+- Ali Farhadi
+- Yejin Choi
+提出时间: 2019
+对应论文: 'From Recognition to Cognition: Visual Commonsense Reasoning'
+任务: Image Captioning
+简介: 一个用于认知水平视觉理解的大规模数据集，290k个多项选择题，每个问题有对应正确答案和原理，110k个图像，答案平均长度为7.5个单词，基本原理平均长度为16个单词。数据集在微软COCO的80个物品类别上扩展，结果获得高度人类认同（>90%）。
