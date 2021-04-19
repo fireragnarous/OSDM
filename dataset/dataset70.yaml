@@ -1,9 +1,0 @@
-名称: MRPC
-下载链接: https://www.microsoft.com/en-us/download/details.aspx?id=52398
-提供者:
-- William B. Dolan
-- Chris Brockett
-提出时间: 2005
-对应论文: 'Automatically Constructing a Corpus of Sentential Paraphrases '
-任务: Automatic paraphrase identification
-简介: 一个文本文件，包含5800对从web新闻源中提取的句子，以及每对句子是否包含释义/语义等价关系的人工注释。

@@ -1,8 +1,0 @@
-名称: WeakVRD-Captioning
-下载链接: https://github.com/Gitsamshi/WeakVRD-Captioning
-提供者:
-- Gitsamshi
-提出时间: 2020
-对应论文: 'Improving Image Captioning with Better Use of Captions'
-任务: 图像字幕
-简介: 模型首先使用弱监督多实例学习构造标题引导的视觉关系图，引入有益的归纳偏差。然后，使用具有文本和视觉特征的相邻和上下文节点来增强表示。在生成过程中，该模型进一步使用多任务学习来合并视觉关系，以联合预测单词和对象/谓词标记序列。

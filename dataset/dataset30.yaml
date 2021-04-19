@@ -1,8 +1,0 @@
-名称: image-captioning
-下载链接: https://github.com/JDAI-CV/image-captioning
-提供者:
-- JDAI Computer Vision
-提出时间: 2020
-对应论文: 'X-Linear Attention Networks for Image Captioning'
-任务: 跨模态内容理解
-简介: 该 X-Linear attention 模型利用双线性融合技术去挖掘不同模态间二阶乃至更高阶的特征交互信息，以增强跨模态的内容理解。

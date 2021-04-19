@@ -1,8 +1,0 @@
-名称: REDN
-下载链接: https://github.com/slczgwh/REDN
-提供者:
-- slczgwh
-提出时间: 2020
-对应论文: 'Downstream Model Design of Pre-trained Language Model for Relation Extraction Task'
-任务: 关系抽取
-简介: 该模型设计了一种具有新型损失函数的网络结构，并且仅用bert-base-uncased模型便在三个主流关系抽取数据集SemEval 2010 Task 8 , NYT , WebNLG 上达到了sota的效果。

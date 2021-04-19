@@ -1,8 +1,0 @@
-名称: luke
-下载链接: https://github.com/studio-ousia/luke
-提供者:
-- Ikuya Yamada
-提出时间: 2020
-对应论文: 'LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention'
-任务: 嵌入语言理解
-简介: LUKE（基于知识的嵌入的语言理解）是一种新的，经过预训练的，基于变换器的单词和实体的上下文化表示。它在重要的NLP基准上获得了最新的结果，这些基准包括SQuAD v1.1（抽取式问题回答），CoNLL-2003（命名实体识别），ReCoRD（克洛斯式问题回答），TACRED（关系分类）和Open Entity（实体键入）。

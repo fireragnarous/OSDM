@@ -1,8 +1,0 @@
-名称: Open Images
-下载链接: https://opensource.google/projects/open-images-dataset
-提供者:
-- Google AI
-提出时间: 2018
-对应论文: The Open Images Dataset V4
-任务: Image classification, object detection and visual relationship detection
-简介: 数据集包含900万个不同图像的，具有丰富的注释，图像非常多样化，通常包含多个对象的复杂场景（平均每幅图像8.4个）。数据集包含图像级标签、注释、对象边界框、对象分段、视觉关系、本地化叙述等等。

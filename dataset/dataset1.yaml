@@ -1,8 +1,0 @@
-名称: CNN / Daily Mail
-下载链接: http://cs.nyu.edu/~kcho/DMQA/
-提供者:
-- Karl Moritz Hermann
-提出时间: 2015
-对应论文: Teaching Machines to Read and Comprehend
-任务: 文本摘要
-简介: 数据集包含在线新闻文章（平均781个单词）和多句摘要（平均3.75句或56个单词），处理后形成287226对训练集，13368对验证集，11490对测试集。

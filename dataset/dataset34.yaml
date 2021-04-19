@@ -1,8 +1,0 @@
-名称: biaffine-ner
-下载链接: https://github.com/juntaoy/biaffine-ner
-提供者:
-- Juntao Yu
-提出时间: 2020
-对应论文: 'Named Entity Recognition as Dependency Parsing'
-任务: 命名实体识别
-简介: 该模型使用双仿射模型给每个区间进行打分。

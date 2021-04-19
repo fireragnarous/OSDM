@@ -1,9 +1,0 @@
-名称: WiC
-下载链接: https://pilehvar.github.io/wic/
-提供者:
-- Mohammad Taher Pilehvar
-- Jose Camacho-Collados
-提出时间: 2019
-对应论文: 'WiC: the Word-in-Context Datasetfor Evaluating Context-Sensitive Meaning Representations'
-任务: Word embeddings
-简介: WiC是一个二进制分类任务。WiC中的每个实例都有一个目标词，目标词是动词或名词，数据集为每个目标词提供了两个上下文。任务是确定两个语境中目标词的出现是否对应相同的意义。

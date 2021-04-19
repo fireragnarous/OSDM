@@ -1,9 +1,0 @@
-名称: boolean-questions
-下载链接: https://github.com/google-research-datasets/boolean-questions
-提供者:
-- Christopher Clark
-- Google AI Language
-提出时间: 2019
-对应论文: 'BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions'
-任务: 自然语言推理
-简介: 数据集收集了16000个自然发生的是非问题，每个问题都与维基百科中的一个段落配对，独立的注释者将其标记为包含答案。

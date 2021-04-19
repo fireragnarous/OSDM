@@ -1,8 +1,0 @@
-名称: IWSLT2014 En→De
-下载链接: https://sites.google.com/site/iwsltevaluation2014/
-提供者:
-- IWSLT committee
-提出时间: 2014
-对应论文: None
-任务: Natural language inference
-简介: IWSLT2014数据集中英译德的部分，包含160k个训练句对和7k个验证句子对。

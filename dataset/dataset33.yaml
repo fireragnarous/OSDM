@@ -1,8 +1,0 @@
-名称: mrc-for-flat-nested-ner
-下载链接: https://github.com/ShannonAI/mrc-for-flat-nested-ner
-提供者:
-- Yuxian Meng
-提出时间: 2020
-对应论文: 'A Unified MRC Framework for Named Entity Recognition'
-任务: 嵌套型的NER
-简介: 相比于传统的序列标注做法，使用MRC方式做NER好处在于引入了query这个先验知识。

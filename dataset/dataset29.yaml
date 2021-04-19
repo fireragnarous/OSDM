@@ -1,8 +1,0 @@
-名称: meshed-memory-transformer
-下载链接: https://github.com/aimagelab/meshed-memory-transformer
-提供者:
-- AImageLab
-提出时间: 2020
-对应论文: 'Meshed-Memory Transformer for Image Captioning'
-任务: 图像字幕
-简介: 该模型结合所学的先验知识学习图像区域之间关系的多级表示，并在解码阶段使用网状连接来利用低层和高层特征。模型包含了一种区域编码方法，它通过内存向量和利用先验知识编码和解码模块之间的网状连接。
