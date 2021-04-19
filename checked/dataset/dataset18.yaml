@@ -1,0 +1,16 @@
+名称: ART
+下载链接: http://abductivecommonsense.xyz/
+提供者:
+- Chandra Bhagavatula
+- Ronan Le Bras
+- Chaitanya Malaviya
+- Keisuke Sakaguchi
+- Ari Holtzman
+- Hannah Rashkin
+- Doug Downey
+- Scott Wen-tau Yih
+- Yejin Choi
+提出时间: 2020
+对应论文: Abductive Commonsense Reasoning
+任务: 自然语言推理
+简介: 数据集包括超过2万个常识性的叙述上和20万个解释。数据集分为两个部分,NLI：选择多项选择问答任务中最可能的解释;NLG：给定观察目标，生成自然语言解释的任务。

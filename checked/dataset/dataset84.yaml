@@ -1,0 +1,12 @@
+名称: WebQuestions
+下载链接: https://worksheets.codalab.org/worksheets/0xba659fe363cb46e7a505c5b6a774dc8a
+提供者:
+- Jonathan Berant
+- Andrew Chou
+- Roy Frostig
+- Percy Liang
+提出时间: 2013
+对应论文。: Semantic Parsing on Freebase from Question-Answer Pairs
+任务: Question Answering
+简介: 数据集是一个以Freebase为知识库的问答数据集，包含6642个问答对。它是通过Google Suggest API抓取问题，然后使用Amazon Mechanical
+  Turk获得答案而创建的。最初的split使用3778个示例进行训练，2032个用于测试。

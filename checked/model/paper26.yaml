@@ -1,0 +1,46 @@
+简称: AoA
+任务: 'Image Captioning'
+论文: 
+  题目: Attention on Attention for Image Captioning
+  作者:
+    - Lun Huang
+    - Wenmin Wang
+    - Jie Chen
+    - Xiao-Yong Wei
+  单位:
+    - School of Electronic and Computer Engineering, Peking University
+    - Peng Cheng Laboratory
+    - Macau University of Science and Technology
+  发表年份: 2019
+  卷（号）: None
+  出版社: Proceedings of the IEEE International Conference on Computer Vision
+  页码: 4634--4643
+  下载地址: https://openaccess.thecvf.com/content_ICCV_2019/html/Huang_Attention_on_Attention_for_Image_Captioning_ICCV_2019_paper.html
+  引用次数: 99
+代码:
+  地址: 'https://github.com/husthuaan/AoANet'
+  时间: 2019
+  star数量: 229
+  fork数量: 50
+  编程语言: Python 3.6
+  框架: PyTorch 1.0
+模型性能: 
+  数据集:
+   - Microsoft COCO:
+      - Bleu_1: 0.8054903453672397
+      - Bleu_2: 0.6523038976984842 
+      - Bleu_3: 0.5096621263772566 
+      - Bleu_4: 0.39140307771618477
+      - METEOR: 0.29011216375635934
+      - ROUGE_L: 0.5890369750273199
+      - CIDEr: 1.2892294296245852
+      - SPICE: 0.22680092759866174
+关键技术: 'Faster R-CNN'
+简介: '在本论文中，作者提出了一个“Attention on Attention”(AoA)模块，该模块扩展了常规的注意力机制，以确定注意力结果和查询结果的相关性。AoA首先使用注意力结果和当前的上下文生成一个“信息向量”和一个“注意力门”，然后通过对它们进行逐元素乘法来增加另外一个注意力，最终获得“关注信息”，即预期的有用知识。我们将AoA应用于描述模型的编码器和解码器中，将其命名为AoA Network（AoANet）。实验表明，AoANet的性能优于以前发布的所有方法。'
+简介链接: 'https://blog.csdn.net/xiasli123/article/details/103112133'
+
+  
+
+
+
+

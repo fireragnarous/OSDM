@@ -1,0 +1,71 @@
+简称: NER as Dependency Parsing
+任务: 'NER'
+论文: 
+  题目: Named Entity Recognition as Dependency Parsing
+  作者:
+    - Juntao Yu
+    - Bernd Bohnet
+    - Massimo Poesio
+  单位:
+    - Queen Mary University
+    - Google Research
+  发表年份: 2020
+  卷（号）: None
+  出版社: arXiv
+  页码: arXiv--2005
+  下载地址: https://arxiv.org/abs/2005.07150
+  引用次数: 8
+代码:
+  地址: 'https://github.com/juntaoy/biaffine-ner'
+  时间: 2020
+  star数量: 100
+  fork数量: 18
+  编程语言: Python 2
+  框架: Pytorch
+模型性能: 
+  数据集:
+    - ACE 2004:
+      - Precision: 87.3
+      - Rrecall: 86.0
+      - F1: 86.7
+    - ACE 2005:
+      - Precision: 85.2
+      - Rrecall: 85.6
+      - F1: 85.4
+    - GENIA:
+      - Precision: 81.8
+      - Rrecall: 79.3
+      - F1: 80.5
+    - ONTONOTES:
+      - Precision: 91.1
+      - Rrecall: 91.5
+      - F1: 91.3
+    - CONLL 2003 English:
+      - Precision: 93.7
+      - Rrecall: 93.3
+      - F1: 93.5
+    - CONLL 2003 German:
+      - Precision: 88.3
+      - Rrecall: 84.6
+      - F1: 86.4
+    - CONLL 2003 German revised:
+      - Precision: 92.4
+      - Rrecall: 88.2
+      - F1: 90.3
+    - CONLL 2002 Spanish:
+      - Precision: 90.6
+      - Rrecall: 90.0
+      - F1: 90.3
+    - CONLL 2002 Dutch:
+      - Precision: 94.5
+      - Rrecall: 92.8
+      - F1: 93.7
+关键技术: 'biaffine'
+简介: '作者进行word embeddings（BERT+char embedding），在BiLSTM进行编码，然后使用biaffine（双仿射）模型给每个区间打分，就像依存分析的模型一样。打出来的分也对应了log likelihood，训练的损失函数就是最大化log likelihood，解码的时候分嵌套NER和无嵌套NER分别使用不同限制。'
+简介链接: 'https://zhuanlan.zhihu.com/p/145528722'
+
+  
+
+
+
+

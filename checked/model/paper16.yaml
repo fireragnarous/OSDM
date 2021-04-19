@@ -1,0 +1,54 @@
+简称: SAE
+任务: 自然语言推理
+论文:
+  题目: 'Select, Answer and Explain: Interpretable Multi-Hop Reading Comprehension over
+    Multiple Documents'
+  作者:
+  - Ming Tu
+  - Kevin Huang
+  - GuangtaoWang
+  - Xiaodong He
+  - Bowen Zhou
+  单位:
+  - JD AI Research
+  发表年份: 2020
+  卷（号）: AAAI-2020
+  出版社: AAAI
+  页码: 9073--9080
+  下载地址: https://arxiv.org/abs/1911.00484
+  引用次数: 22
+代码:
+  地址: https://github.com/JD-AI-Research-Silicon-Valley/SAE
+  时间: 2020
+  star数量: 22
+  fork数量: 3
+  编程语言: Python
+  框架:
+  - PyTorch >= 1.1
+模型性能:
+  数据集:
+    HotpotQA:
+      Dev:
+        Ans:
+          EM: 67.7
+          F1: 80.75
+        Supp:
+          EM: 63.3
+          F1: 87.38
+        Joint:
+          EM: 46.81
+          F1: 72.75
+      Test:
+        Ans:
+          EM: 66.92
+          F1: 79.62
+        Supp:
+          EM: 61.53
+          F1: 86.86
+        Joint:
+          EM: 45.36
+          F1: 71.45
+关键技术: Pairwise learning-to-rank loss
+简介: SAE首先过滤掉与答案无关的文件, 从而减少干扰信息的数量. 然后将选定的与答案相关的文档输入到一个模型中, 共同预测答案和支持句子. 该模型在答案预测的词级和支持句子预测的句子级同时优化了多任务学习目标,
+  并通过注意力机制实现了这两个任务的交互。
+简介链接: https://blog.csdn.net/ganxiwu9686/article/details/107211779

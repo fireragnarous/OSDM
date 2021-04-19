@@ -1,0 +1,8 @@
+名称: AoANet
+下载链接: https://github.com/husthuaan/AoANet
+提供者:
+- Lun Huang
+提出时间: 2019
+对应论文: 'Attention on Attention for Image Captioning'
+任务: 确定注意力结果和查询结果的相关性
+简介: 本数据集为作者将AoA模块应用于描述模型的编码器和解码器中生成。该模块扩展了常规的注意力机制，以确定注意力结果和查询结果的相关性。

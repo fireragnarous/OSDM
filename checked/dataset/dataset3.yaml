@@ -1,0 +1,11 @@
+名称: X-Sum
+下载链接: https://github.com/EdinburghNLP/XSum
+提供者:
+- Shashi Narayan
+- Shay B. Cohen
+- Mirella Lapata
+提出时间: 2018
+对应论文: 'Don’t Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural
+  Networks for Extreme Summarization'
+任务: 文本摘要
+简介: 数据集是通过收集了BBC的在线文章获得。数据集中包含204045个训练集样本、11332个验证集样本和11334个测试集样本。文章平均长度为431字（约20句），摘要平均长度为23字。

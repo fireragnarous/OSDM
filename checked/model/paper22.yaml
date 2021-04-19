@@ -1,0 +1,45 @@
+简称: DPR
+任务: 自然语言推理
+论文:
+  题目: Dense Passage Retrieval for Open-Domain Question Answering
+  作者:
+  - Vladimir Karpukhin
+  - Barlas Oguz
+  - Sewon Min
+  - Patrick Lewis
+  - Ledell Wu
+  - Sergey Edunov
+  - Danqi Chen
+  - Wen-tau Yih
+  单位:
+  - Facebook AI
+  - University of Washington
+  - Princeton University
+  发表年份: 2020
+  卷（号）: EMNLP-2020
+  出版社: Association for Computational Linguistics
+  页码: 6769-6781
+  下载地址: https://www.aclweb.org/anthology/2020.emnlp-main.550.pdf
+  引用次数: 37
+代码:
+  地址: https://github.com/facebookresearch/DPR
+  时间: 2021
+  star数量: 477
+  fork数量: 84
+  编程语言: Python 3.6+
+  框架:
+  - PyTorch 1.2.0+
+模型性能:
+  数据集:
+    NQ:
+      Acc: 41.5
+    TriviaQA:
+      Acc: 56.8
+    WQ:
+      Acc: 42.4
+    TREC:
+      Acc: 49.4
+关键技术: Dense retriever
+简介: 开放域问题回答依赖于高效的文本检索来选择候选段落，传统的稀疏向量空间模型用的较多的有TF-IDF 或 BM25算法，但这些算法仅仅是在词的匹配上进行检索，并未考虑语义的相关性，有很大的局限性。因此，论文提出了一种新的算法来检索候选段落，称之为：DPR算法。DPR算法在
+  top-20段落文本检索准确率方面比 Lucene-BM25系统高出9%-19%。
+简介链接: https://blog.csdn.net/weixin_43922901/article/details/107449185

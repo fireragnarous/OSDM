@@ -1,0 +1,12 @@
+名称: TriviaQA
+下载链接: https://nlp.cs.washington.edu/triviaqa/
+提供者:
+- Mandar Joshi
+- Eunsol Choi
+- Daniel S. Weld
+- Luke Zettlemoyer
+提出时间: 2017
+对应论文: 'TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading
+  Comprehension '
+任务: Question Answering
+简介: TriviaQA包括95K个问答对和独立收集的证据文件，平均每个问题6个，为回答问题提供高质量的远程监督。与其他最近大规模数据集相比，TriviaQA有相对复杂的组合问题，在问题和相应的答案证据句之间有相当大的句法和词汇可变性，需要更多的跨句推理来找到答案。

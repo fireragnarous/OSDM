@@ -1,0 +1,8 @@
+名称: text-to-text-transfer-transformer
+下载链接: https://github.com/google-research/text-to-text-transfer-transformer
+提供者:
+- Google Research
+提出时间: 2019
+对应论文: 'Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer'
+任务: 探索迁移学习
+简介: 数据集引入的初衷是为了探索尺度规模(包括模型规模和数据规模)在NLP中的影响。

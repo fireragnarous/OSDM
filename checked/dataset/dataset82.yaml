@@ -1,0 +1,11 @@
+名称: bAbI
+下载链接: https://research.fb.com/downloads/babi/
+提供者:
+- Juan Pavez
+- Hector Allende
+- Hector Allende-Cid
+提出时间: 2018
+对应论文。: 'Working Memory Networks: Augmenting Memory Networks with a Relational Reasoning
+  Module'
+任务: Question Answering
+简介: 数据集由20个不同的任务组成。每个任务都是为了测试不同的推理能力，比如推理、归纳和共指判断。每个样本由一个问题、一个答案和一组事实组成。数据集有两个版本，分别表示不同的数据集大小：bAbI-1k和bAbI-10k。bAbI-10k版本的数据集由每个任务10000个训练样本组成。

@@ -1,0 +1,17 @@
+名称: Visual Genome
+下载链接: https://visualgenome.org/
+提供者:
+- Ranjay Krishna
+- Yuke Zhu
+- Oliver Groth
+- Kenji Hata
+- Yannis Kalantidis
+- Jia Li
+- D. Ayman Shamma
+- Michael Bernstein
+- Fei-Fei Li
+提出时间: 2015
+对应论文: Visual Genome Connecting Language and Vision Using Crowdsourced Dense Image
+  Annotations
+任务: Image Captioning
+简介: 数据集旨在将结构化图像概念与语言联系起来，包含了108077张图片,540万地区描述,170万个可视问答,380万个对象实例,280万个属性,230万个关系，所有内容都映射到映射到Wordnet语法集。

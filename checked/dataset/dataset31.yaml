@@ -1,0 +1,8 @@
+名称: Oscar
+下载链接: https://github.com/microsoft/Oscar
+提供者:
+- Microsoft
+提出时间: 2020
+对应论文: 'Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks'
+任务: 多模态预训练
+简介: 作者提出了一种新的交叉模式预训练方法Oscar（对象语义对齐的预训练）。它利用在图像中检测到的对象标签作为锚点，从而大大简化了图像-文本对齐方式的学习。作者在650万个文本-图像对的公共语料库上对Oscar进行了预培训，并在下游任务上对其进行了微调，从而在六种完善的视觉语言理解和生成任务上创建了最新的技术。

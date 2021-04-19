@@ -1,0 +1,76 @@
+简称: SpanBERT
+任务: 'Machine Reading Comprehension'
+论文: 
+  题目: 'SpanBERT: Improving Pre-training by Representing and Predicting Spans'
+  作者:
+    - Mandar Joshi
+    - Danqi Chen
+    - Yinhan Liu
+    - Daniel S. Weld
+    - Luke Zettlemoyer
+    - Omer Levy
+  单位:
+    - Allen School of Computer Science & Engineering, University of Washington, Seattle, WA
+    - Computer Science Department, Princeton University, Princeton, NJ
+    - Allen Institute of Artificial Intelligence, Seattle
+    - Facebook AI Research, Seattle
+  发表年份: 2020
+  卷（号）: 8
+  出版社: MIT Press
+  页码: 64--77
+  下载地址: https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00300
+  引用次数: 282
+代码:
+  地址: 'https://github.com/facebookresearch/SpanBERT'
+  时间: 2019
+  star数量: 500
+  fork数量: 95
+  编程语言: Python
+  框架: Pytorch
+模型性能: 
+  数据集:
+    - SQuAD 1.1:
+      - EM: 88.8
+      - F1: 94.6
+    - SQuAD 2.0:
+      - EM: 85.7
+      - F1: 88.7
+    - NewsQA:
+      - F1: 73.6
+    - TriviaQA:
+      - F1: 83.6
+    - SearchQA:
+      - F1: 84.5
+    - HotpotQA:
+      - F1: 83.0
+    - Natural Questions:
+      - F1: 82.5
+    - CoLA:
+      - Accuracy: 64.3
+    - SST-2:
+      - Accuracy: 94.8
+    - MRPC:
+      - F1: 90.9
+      - Accuracy: 87.9
+    - STS-B:
+      - Pearson correlation: 89.9
+      - Spearmanr correlation: 89.1
+    - QQP:
+      - F1: 71.9
+      - Accuracy: 89.5
+    - MNLI:
+      - matched accuracies and accuracy for all the other tasks: 88.1
+      - mistached accuracies and accuracy for all the other tasks: 87.7
+    - QNLI:
+      - Accuracy: 94.3
+    - RTE:
+      - Accuracy: 79.0
+关键技术: 'SpanBERT'
+简介: '在本文中，作者提出了一个新的分词级别的预训练方法 SpanBERT ，其在现有任务中的表现优于 BERT ，并在问答、指代消解等分词选择任务中取得了较大的进展。对 BERT 模型进行了如下改进：提出了更好的 Span Mask 方案，SpanBERT 不再对随机的单个 token 添加掩膜，而是对随机对邻接分词添加掩膜；通过加入 Span Boundary Objective (SBO) 训练目标，通过使用分词边界的表示来预测被添加掩膜的分词的内容，不再依赖分词内单个 token 的表示，增强了 BERT 的性能，特别在一些与 Span 相关的任务，如抽取式问答；用实验获得了和 XLNet 类似的结果，发现不加入 Next Sentence Prediction (NSP) 任务，直接用连续一长句训练效果更好。'
+简介链接: 'https://blog.csdn.net/weixin_37947156/article/details/99210514'
+
+  
+
+
+
+

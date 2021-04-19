@@ -1,0 +1,39 @@
+简称: None
+任务: 文本摘要
+论文:
+  题目: Controlling the Amount of Verbatim Copying in Abstractive Summarization
+  作者:
+  - Kaiqiang Song
+  - Bingqing Wang
+  - Zhe Feng
+  - Liu Ren
+  - Fei Liu
+  单位:
+  - University of Central Florida
+  - Robert Bosch LLC
+  发表年份: 2020
+  卷（号）: AAAI-2020
+  出版社: Association for the Advancement of Artificial Intelligence
+  页码: 8902--8909
+  下载地址: https://ojs.aaai.org/index.php/AAAI/article/view/6420
+  引用次数: 7
+代码:
+  地址: https://github.com/ucfnlp/control-over-copying
+  时间: 2020
+  star数量: 33
+  fork数量: 7
+  编程语言: Python 3.7
+  框架: Pytorchv1.3 Pyrouge pytorch-pretrained-bert
+模型性能:
+  数据集:
+    Gigaword:
+      ROUGE-1: 39.08
+      ROUGE-2: 20.47
+      ROUGE-L: 36.69
+    Newsroom:
+      ROUGE-1: 45.93
+      ROUGE-2: 24.14
+      ROUGE-L: 42.51
+关键技术: byte-pair-encoding(BPE)
+简介: 本文通过开发一个从单一参考摘要中学习的通用框架来,生成大量与源文本相比重复率各不相同的摘要。使用BPE编码，框架中仅包含解码部分。
+简介链接: None

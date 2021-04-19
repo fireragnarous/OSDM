@@ -1,0 +1,8 @@
+名称: two-are-better-than-one
+下载链接: https://github.com/LorrinWWW/two-are-better-than-one
+提供者:
+- Jue WANG
+提出时间: 2020
+对应论文: 'Two are Better than One: Joint Entity and Relation Extraction with Table-Sequence Encoders'
+任务: 提取实体和实体关系
+简介: 设计2个不同的编码器来补货实体识别和关系抽取这2中不同类型的信息，包含表编码器和序列编码器。

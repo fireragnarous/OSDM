@@ -1,0 +1,78 @@
+简称: PEGASUS
+任务: 文本摘要
+论文:
+  题目: 'PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization'
+  作者:
+  - Jingqing Zhang
+  - Yao Zhao
+  - Mohammad Saleh
+  - Peter J. Liu
+  单位:
+  - Imperial College London
+  - Google Research
+  发表年份: 2020
+  卷（号）: ICML-2020
+  出版社: Proceedings of Machine Learning Research
+  页码: 11328--11339
+  下载地址: https://arxiv.org/pdf/1912.08777.pdf
+  引用次数: 93
+代码:
+  地址: https://github.com/google-research/pegasus
+  时间: 2020
+  star数量: 915
+  fork数量: 180
+  编程语言: Python
+  框架: Google Cloud or gsutil
+模型性能:
+  数据集:
+    CNN / Daily Mail:
+      ROUGE-1: 44.16
+      ROUGE-2: 21.56
+      ROUGE-L: 41.3
+    Reddit:
+      ROUGE-1: 27.99
+      ROUGE-2: 9.81
+      ROUGE-L: 22.94
+    Newsroom:
+      ROUGE-1: 45.98
+      ROUGE-2: 34.2
+      ROUGE-L: 42.18
+    XSum:
+      ROUGE-1: 47.6
+      ROUGE-2: 24.83
+      ROUGE-L: 39.64
+    WikiHow:
+      ROUGE-1: 46.39
+      ROUGE-2: 22.12
+      ROUGE-L: 38.41
+    PubMed:
+      ROUGE-1: 45.97
+      ROUGE-2: 20.15
+      ROUGE-L: 28.25
+    Multi-News:
+      ROUGE-1: 47.65
+      ROUGE-2: 18.75
+      ROUGE-L: 24.95
+    Gigaword:
+      ROUGE-1: 39.65
+      ROUGE-2: 20.47
+      ROUGE-L: 36.76
+    BIGPATENT:
+      ROUGE-1: 52.29
+      ROUGE-2: 33.08
+      ROUGE-L: 41.66
+    arXiv:
+      ROUGE-1: 44.21
+      ROUGE-2: 16.95
+      ROUGE-L: 25.67
+    AESLC:
+      ROUGE-1: 37.68
+      ROUGE-2: 21.25
+      ROUGE-L: 36.51
+    BillSum:
+      ROUGE-1: 59.67
+      ROUGE-2: 41.58
+      ROUGE-L: 47.59
+关键技术: pre-training large Transformer-based encoder-decoder model
+简介: PEGASUS基于Transformer进行模型构建，并针对于文本摘要任务本身的特定提出了新的自监督式的预训练目标GSG（Gap Sentences Generation），最后通过实验证明了在12个文本摘要数据集上均实现了当时的SOTA。
+简介链接: https://blog.csdn.net/forlogen/article/details/104271374

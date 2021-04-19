@@ -1,0 +1,13 @@
+名称: Conceptual Captions
+下载链接: https://github.com/google-research-datasets/conceptual-captions
+提供者:
+- Piyush Sharma
+- Nan Ding
+- Sebastian Goodman
+- Radu Soricut
+提出时间: 2018
+对应论文。: 'Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic
+  Image Captioning'
+任务: Image captioning
+简介: 数据集有超过300万张图片，与自然语言字幕配对。与MS-COCO不同，图像及其原始描述是从网络上获取的，因此包含了更广泛的种类。原始描述是从与web图像相关联的Alt
+  text HTML属性中获取的。

@@ -1,0 +1,15 @@
+名称: VizWiz
+下载链接: https://vizwiz.org/tasks-and-datasets/vqa/
+提供者:
+- Danna Gurari
+- Qing Li
+- Abigale J. Stangl
+- Anhong Guo
+- Chi Lin
+- Kristen Grauman
+- Jiebo Luo
+- Jeffrey P. Bigham
+提出时间: 2018
+对应论文。: 'VizWiz Grand Challenge: Answering Visual Questions from Blind People'
+任务: Image Captioning and Visual Question Answering
+简介: 数据源于一个自然的视觉问答背景，盲人每人获得一张图片并记录下一个关于它的口头问题，每个视觉问题有10个众包答案，数据集共包含了31,000个问题。VizWiz挑战希望解决了这个数据集的以下两个任务：预测视觉问题的答案和预测视觉问题是否无法回答。

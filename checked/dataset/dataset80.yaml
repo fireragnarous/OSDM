@@ -1,0 +1,10 @@
+名称: WikiHop
+下载链接: http://qangaroo.cs.ucl.ac.uk/
+提供者:
+- Johannes Welbl
+- Pontus Stenetorp
+- Sebastian Riedel
+提出时间: 2018
+对应论文: Constructing Datasets for Multi-hop Reading Comprehension Across Documents
+任务: Question Answering
+简介: WikiHop是一个多跳问答数据集。WikiHop的查询是用WikiData中的实体和关系来构造的，而支持文档则来自WikiReading。首先建立一个连接实体和文档的二部图，通过遍历该图找到每个查询的答案。包含与答案类型一致且在查询中与答案具有相同关系的候选项，从而生成一组候选项。训练集样本总数约为43K，开发集样本数约为5K，测试集样本数约为2.5K。未提供测试集。任务是在给定一个查询和多个支持文档的情况下预测正确答案。

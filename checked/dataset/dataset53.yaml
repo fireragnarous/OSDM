@@ -1,0 +1,11 @@
+名称: ACE 2005
+下载链接: https://catalog.ldc.upenn.edu/LDC2006T06
+提供者:
+- Christopher Walker
+- Stephanie Strassel
+- Julie Medero
+- Kazuaki Maeda
+提出时间: 2006
+对应论文: ACE 2005 Multilingual Training Corpus
+任务: Automatic content extraction
+简介: ACE 2005多语种训练语料库是由语言数据联盟（LDC）开发的，包含约1800个英文、阿拉伯文和中文混合体裁文本文件，对实体、关系和事件进行了注释。体裁包括新闻专线、广播新闻、广播谈话、博客、论坛和封面电话讲话。在ACE项目的支持和LDC的额外协助下，LDC对数据进行了注释。

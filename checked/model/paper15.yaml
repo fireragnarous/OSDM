@@ -1,0 +1,49 @@
+简称: BERT
+任务: 自然语言推理
+论文:
+  题目: 'BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding'
+  作者:
+  - Jacob Devlin
+  - Ming-Wei Chang
+  - Kenton Lee
+  - Kristina Toutanova
+  单位:
+  - Google AI Language
+  发表年份: 2019
+  卷（号）: NAACL-2019
+  出版社: Association for Computational Linguistics
+  页码: 4171--4186
+  下载地址: https://www.aclweb.org/anthology/N19-1423/
+  引用次数: 14563
+代码:
+  地址: https://github.com/google-research/bert
+  时间: 2020
+  star数量: 26.6k
+  fork数量: 7.5k
+  编程语言: Python
+  框架:
+  - TensorFlow
+模型性能:
+  数据集:
+    GLUE:
+      CoLA: 60.5
+      SST-2: 94.9
+      MRPC: 89.3
+      STS-B: 86.5
+      QQP: 72.1
+      MNLI-m/mm: 86.7/85.9
+      QNLI: 92.7
+      RTE: 70.1
+      Avg: 82.1
+    SQuAD v2.0:
+      EM: 80.0
+      F1: 83.1
+    SQuAD v1.1:
+      EM: 87.4
+      F1: 93.2
+    SWAG:
+      Dev: 86.6
+      Test: 86.3
+关键技术: Bidirectional Encoder Representations from Transformers
+简介: BERT模型是建立在transformer的基础上，采用双向的transformer，以此建立一个通用的NLP模型，对于特定任务只需要加一个额外的神经网络层即可，把下游任务的工作转移到预训练阶段，使模型在11个NLP任务上都有非常优异的表现
+简介链接: https://blog.csdn.net/m0_38088359/article/details/83379671

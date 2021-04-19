@@ -1,0 +1,12 @@
+名称: QUARTZ
+下载链接: https://allenai.org/data/quartz
+提供者:
+- Tushar Khot
+- Peter Clark
+- Michal Guerquin
+- Peter Jansen
+- Ashish Sabharwal
+提出时间: 2019
+对应论文: 'QUARTZ: An Open-Domain Dataset of Qualitative Relationship Questions'
+任务: 自然语言推理
+简介: 数据集是一个众包数据集，包含3864个关于开放领域定性关系的多项选择题（2696个训练，384个开发，784个测试）。每个问题与405个不同的背景句子（有时是简短的段落）中的一个配对。

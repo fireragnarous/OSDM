@@ -1,0 +1,46 @@
+简称: DFGN
+任务: 自然语言推理
+论文:
+  题目: Dynamically Fused Graph Network for Multi-hop Reasoning
+  作者:
+  - Lin Qiu
+  - Yunxuan Xiao
+  - Yanru Qu
+  - Hao Zhou
+  - Lei Li
+  - Weinan Zhang
+  - Yong Yu
+  单位:
+  - Shanghai Jiao Tong University
+  - ByteDance AI Lab, China
+  发表年份: 2019
+  卷（号）: ACL-2019
+  出版社: Association for Computational Linguistics
+  页码: 6140--6150
+  下载地址: https://www.aclweb.org/anthology/P19-1617/
+  引用次数: 35
+代码:
+  地址: https://github.com/woshiyyya/DFGN-pytorch
+  时间: 2019
+  star数量: 158
+  fork数量: 31
+  编程语言: Python3
+  框架:
+  - PyTorch0.4.1
+  - boto3
+模型性能:
+  数据集:
+    HotpotQA:
+      Test:
+        Ans:
+          EM: 56.31
+          F1: 69.69
+        Supp:
+          EM: 51.5
+          F1: 81.62
+        Joint:
+          EM: 33.62
+          F1: 59.82
+关键技术: Dynamically Fused Graph Network
+简介: ' 论文提出了动态融合图形网络（DFGN）为需要多个分散证据来进行推理的文本问答提供了新的思路。DFGN包含了一个动态融合层，该层从给定查询中提到的实体开始，沿着文本动态构建的实体图进行探索，并从给定的文档中逐步找到相关的支持实体。'
+简介链接: https://blog.csdn.net/a609640147/article/details/90813397

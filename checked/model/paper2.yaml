@@ -1,0 +1,27 @@
+简称: Extractive Summarization with SWAP-NET
+任务: 文本摘要
+论文:
+  题目: Extractive Summarization with SWAP-NET:Sentences and Words from Alternating
+    Pointer Networks
+  作者:
+  - Aishwarya Jadhav
+  - Vaibhav Rajan
+  单位:
+  - Indian Institute of Science
+  - School of Computing National University of Singapore
+  发表年份: 2018
+  卷（号）: ACL-2018
+  出版社: Association for Computational Linguistics
+  页码: 142--151
+  下载地址: https://www.aclweb.org/anthology/P18-1014.pdf
+  引用次数: 39
+代码: None
+模型性能:
+  数据集:
+    CNN / Daily Mail:
+      ROUGE-1: 41.6
+      ROUGE-2: 18.3
+      ROUGE-L: 37.7
+关键技术: SWAP-NET (Sentences and Words from Alternating Pointer Networks)
+简介: 摘要不仅包含文章中重要的句子集合，通常也包含重要的关键词。论文设计了一个基于二级指针网络的SWAP-NET，识别输入文档中的重要句子和关键词，然后将它们组合起来形成摘要
+简介链接: None

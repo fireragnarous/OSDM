@@ -1,0 +1,12 @@
+名称: Social IQA
+下载链接: https://leaderboard.allenai.org/socialiqa/submissions/get-started
+提供者:
+- Maarten Sap
+- Hannah Rashkin
+- Derek Chen
+- Ronan Le Bras
+- Yejin Choi
+提出时间: 2019
+对应论文: 'SocialIQA: Commonsense Reasoning about Social Interactions'
+任务: 自然语言推理
+简介: 数据集中行为跨越了各种各样的社会情境，候选答案既有人类策划的答案，也有经过逆向过滤的机器生成的候选答案。数据集包含超过37000对问答，用于评估模型对日常事件和情境的社会影响进行推理的能力。

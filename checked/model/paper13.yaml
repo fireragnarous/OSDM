@@ -1,0 +1,48 @@
+简称: XLNet
+任务: 自然语言推理
+论文:
+  题目: Generalized Autoregressive Pretraining for Language Understanding
+  作者:
+  - Zhilin Yang
+  - Zihang Dai
+  - Yiming Yang
+  - Jaime Carbonell
+  - Ruslan Salakhutdinov
+  - Quoc V. Le
+  单位:
+  - Carnegie Mellon University
+  - Google AI Brain Team
+  发表年份: 2019
+  卷（号）: NEURIPS-2019
+  出版社: Curran Associates, Inc.
+  页码: 5753--5763
+  下载地址: https://papers.nips.cc/paper/2019/hash/dc6a7e655d7e5840e66733e9ee67cc69-Abstract.html
+  引用次数: 1906
+代码:
+  地址: https://github.com/zihangdai/xlnet
+  时间: 2019
+  star数量: 5.5k
+  fork数量: 1.1k
+  编程语言: Python2
+  框架: TensorFlow 1.13.1
+模型性能:
+  数据集:
+    GLUE:
+      CoLA: 70.2
+      SST-2: 97.2
+      MRPC: 92.9
+      STS-B: 93.0
+      QQP: 90.4
+      MNLI-m/mm: 90.9/90.9
+      QNLI: 99.0
+      RTE: 88.5
+      WNLI: 92.5
+    SQuAD v2.0:
+      EM: 87.926
+      F1: 90.689
+    SQuAD v1.1:
+      EM: 89.7
+      F1: 95.1
+关键技术: generalized autoregressive pretraining model
+简介: 文章提出一种广义的自回归预训练方法，通过最大化因子分解顺序的所有排列的期望可能性来学习双向上下文，并克服了BERT的局限性。模型可用于问答、自然语言推理、情感分析和文档排序等任务
+简介链接: https://blog.csdn.net/Jasminexjf/article/details/94395921

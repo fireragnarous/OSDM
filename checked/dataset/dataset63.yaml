@@ -1,0 +1,11 @@
+名称: SNLI
+下载链接: https://nlp.stanford.edu/sentiment/
+提供者:
+- Samuel R. Bowman
+- Gabor Angeli
+- Christopher Potts
+- Christopher D. Manning
+提出时间: 2015
+对应论文: A large annotated corpus for learning natural language inference
+任务: Natural language inference
+简介: 数据集由570k个句子对组成，这些句子对被手动标记为包含、矛盾和中性。数据集前身是来自Flickr30k的图像标题，标注者收到一句前提句后创作关系为包含、矛盾和中立的句子。另一些注释者会判断这些描述了相同的事件句子对之间的关系，并手动标记。

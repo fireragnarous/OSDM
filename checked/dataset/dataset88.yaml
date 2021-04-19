@@ -1,0 +1,11 @@
+名称: ReferItGame
+下载链接: http://tamaraberg.com/referitgame/
+提供者:
+- Sahar Kazemzadeh
+- Vicente Ordonez
+- Mark Matten
+- Tamara L. Berg
+提出时间: 2014
+对应论文。: 'ReferItGame: Referring to Objects in Photographs of Natural Scenes'
+任务: Image Captioning
+简介: 通过设计一个两人游戏，我们可以直接在游戏中收集和验证对物体的描述。这个游戏已经制作了一个包含130525个描述的数据集，在19894张自然场景的照片中涉及96654个不同的物体。这个数据集比以前的REG数据集更大、更多样化，并允许我们研究真实场景中的描述。

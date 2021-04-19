@@ -1,0 +1,46 @@
+简称: X-Linear Attention Networks
+任务: 'Image Captioning'
+论文: 
+  题目: X-Linear Attention Networks for Image Captioning
+  作者:
+    - Yingwei Pan
+    - Ting Yao
+    - Yehao Li
+    - Tao Mei
+  单位:
+    - JD AI Research, Beijing, China
+  发表年份: 2020
+  卷（号）: None
+  出版社: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  页码: 10971--10980
+  下载地址: https://openaccess.thecvf.com/content_CVPR_2020/html/Pan_X-Linear_Attention_Networks_for_Image_Captioning_CVPR_2020_paper.html
+  引用次数: 32
+代码:
+  地址: 'https://github.com/JDAI-CV/image-captioning'
+  时间: 2020
+  star数量: 157
+  fork数量: 20
+  编程语言: Python 3
+  框架: PyTorch (>1.0)
+模型性能: 
+  数据集:
+    - Microsoft COCO:
+      - BLEU-1: 78.0
+      - BLEU-2: 62.3
+      - BLEU-3: 48.9
+      - BLEU-4: 38.2
+      - METEOR: 28.8
+      - ROUGE: 58.0
+      - CIDEr: 122.0
+      - SPICE: 21.9
+关键技术: 
+  - 'Faster R-CNN'
+  - 'X-Linear attention'
+简介: '作者打造了一个能实现高阶特征交互的注意力机制 X-Linear attention。它可以利用双线性融合技术去挖掘不同模态间二阶乃至更高阶的特征交互信息，以增强跨模态的内容理解。同时，该 X-Linear attention 可以作为一个灵活的插件接入到目前流行的各种图像描述生成模型中，极大地提升编码器和解码器在模态内和跨模态间的特征交互能力。作者在最为权威的 COCO 在线评测系统上对所设计的图像描述生成系统进行测试，在多个指标上均达到世界第一的水平。'
+简介链接: 'https://blog.csdn.net/weixin_44869866/article/details/107297836'
+
+  
+
+
+
+

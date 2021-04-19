@@ -1,0 +1,13 @@
+名称: GLUE
+下载链接: https://gluebenchmark.com/
+提供者:
+- Alex Wang
+- Amanpreet Singh
+- Julian Michael
+- Felix Hill
+- Omer Levy
+- Samuel R. Bowman
+提出时间: 2018
+对应论文: 'GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding'
+任务: 自然语言推理
+简介: GLUE由九个不同英语句子理解任务组成，涵盖了广泛的领域、数据量和困难。由于GLUE的目标是促进可推广的NLU系统的开发，因此我们设计了一个基准，模型需要在任务间共享大量的知识，从而在不同任务上收获良好的性能。
