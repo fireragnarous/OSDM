@@ -1,0 +1,50 @@
+简称: Self-Attention Network
+任务: 'Image Captioning'
+论文: 
+  题目: Normalized and Geometry-Aware Self-Attention Network for Image Captioning
+  作者:
+    - Longteng Guo
+    - Jing Liu
+    - Xinxin Zhu
+    - Peng Yao
+    - Shichen Lu
+    - Hanqing Lu
+  单位:
+    - National Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences
+    - School of Artificial Intelligence, University of Chinese Academy of Sciences
+    - University of Science and Technology Beijing
+    - Wuhan University
+  发表年份: 2020
+  卷（号）: None
+  出版社: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  页码: 10327--10336
+  下载地址: https://openaccess.thecvf.com/content_CVPR_2020/html/Guo_Normalized_and_Geometry-Aware_Self-Attention_Network_for_Image_Captioning_CVPR_2020_paper.html
+  引用次数: 4
+代码:
+  地址: None
+  时间: None
+  star数量: None
+  fork数量: None
+  编程语言: None
+  框架: None
+模型性能: 
+  数据集:
+    - Microsoft COCO:
+      - BLEU-1: 95.0
+      - BLEU-2: 89.3
+      - BLEU-3: 80.6
+      - BLEU-4: 70.2
+      - METEOR: 38.4
+      - ROUGE-L: 74.0
+      - CIDEr-D: 128.6
+关键技术: 
+  - 'NSA'
+  - 'GSA'
+简介: '本文从两个方面对自注意（Self-attention）进行了改进，以提高图像字幕的性能。首先，提出了规范化自注意（NSA），它是SA的重新参数化，它带来了SA内部规范化的好处。其次，为了弥补Transformer无法对输入对象的几何结构进行建模的主要局限性，本文提出了一类几何感知自我注意（GSA），它扩展了SA，使之能够明确有效地考虑图像中对象之间的相对几何关系。'
+简介链接: 'https://blog.csdn.net/untitled_/article/details/107770635'
+
+  
+
+
+
+
